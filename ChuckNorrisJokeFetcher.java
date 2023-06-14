@@ -36,7 +36,7 @@ public class ChuckNorrisJokeFetcher {
                 // Print the response in JSON format
                 System.out.println(response.toString());
             } else {
-                System.out.println("Error: " + responseCode);
+                System.out.println("Error : " + responseCode);
             }
         } catch (Exception e) {
             e.printStackTrace();
